@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 file=open(r"C:\Users\archi\OneDrive\Desktop\inteernship\model.pkl",'rb') 
 model=pickle.load(file)
-st.title("Weather Predictor")
+st.title("Air Pollution Predictor")
 st.write("Enter the input features to get a prediction")
 a=st.number_input("enter the value of SO2")
 b=st.number_input("enter the value of CO")
